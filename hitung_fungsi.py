@@ -4,7 +4,7 @@ def hitung_fungsi(x):
 try:
     x = int(input("Masukkan bilangan bulat x: "))
     if x == 0:
-        print("Error: x tidak boleh 0 (pembagian dengan nol tidak diperbolehkan).")
+        print("Error: x yang Anda masukkan bukan bilangan bulat.")
     else:
         hasil = hitung_fungsi(x)
         print(f"Hasil f({x}) = {hasil}")
